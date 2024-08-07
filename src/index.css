@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+body > *:first-child {
+	min-width: 60%;
+}
